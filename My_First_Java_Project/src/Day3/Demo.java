@@ -2,6 +2,7 @@ package Day3;
 class Car
 {
 	public int gear,speed;
+	
 	boolean clutch,brake,accelerator;
 	public void start()
 	{
