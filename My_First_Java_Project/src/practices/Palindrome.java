@@ -19,5 +19,6 @@ public class Palindrome
 			System.out.println("Number is pallindrome:");
 		else
 			System.out.println("Number is not pallindrome:");
+		scan.close();
 	}
 }
