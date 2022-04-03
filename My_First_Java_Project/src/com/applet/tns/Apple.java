@@ -1,15 +1,18 @@
-package apple.com;
+package com.applet.tns;
 
-import java.awt.Button;
 import java.applet.Applet;
+import java.awt.Button;
 import java.awt.TextField;
 
-public class AppletDemo extends Applet
+public class Apple extends Applet
 {
 	Button b;
 	TextField t;
 	public void init()
 	{
 		b=new Button("Submit");
+		add(b);
+		t=new TextField(10);
+		add(t);
 	}
 }
