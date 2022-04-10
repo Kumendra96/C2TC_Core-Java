@@ -1,5 +1,5 @@
 package practices;
-import java.util.*;
+import java.util.Scanner;
 public class ArmstrongNo
 {
 	public static void main(String[] args) 
@@ -22,8 +22,9 @@ public class ArmstrongNo
 			num=num/10;
 		}
 		if(temp==res)
-			System.out.println("number is armstrong:");
+			System.out.println(res+"number is armstrong:");
 		else
-			System.out.println("number is not armstrog:");
+			System.out.println(res+"number is not armstrog:");
+		scan.close();
 	}
 }

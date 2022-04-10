@@ -26,7 +26,6 @@ class B extends A
 	{
 		
 	}
-	
 }
 class D
 {

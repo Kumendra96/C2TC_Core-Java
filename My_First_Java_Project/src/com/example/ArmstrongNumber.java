@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.Scanner;
+
 public class ArmstrongNumber 
 {
 	static boolean armstrong(int num)
@@ -12,7 +14,6 @@ public class ArmstrongNumber
 			temp=temp/10;
 			count++;
 		}
-		
 		temp=num;
 		while(temp>0)
 		{
@@ -29,7 +30,9 @@ public class ArmstrongNumber
 	}
 	public static void main(String[] args) 
 	{
-		int num=371;
+		System.out.println("Enter any Number:");
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
 		System.out.println("The no is:"+num);
 		if(armstrong(num))
 		{

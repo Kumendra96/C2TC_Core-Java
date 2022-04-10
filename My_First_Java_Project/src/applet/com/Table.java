@@ -1,7 +1,6 @@
 package applet.com;
 
 import java.applet.Applet;
-import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 
